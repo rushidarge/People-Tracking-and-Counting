@@ -2,6 +2,11 @@
 
 This project tracks people using the YOLO and ByteTrack algorithms, counting individuals passing a marker and categorizing their direction as either right-to-left or left-to-right.
 
+# Demo
+https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f22c-dd9a-44fa-a9d9-0cb92b07d74c
+
+
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
