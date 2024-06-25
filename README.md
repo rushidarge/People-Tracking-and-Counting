@@ -3,6 +3,7 @@
 This project tracks people using the YOLO and ByteTrack algorithms, counting individuals passing a marker and categorizing their direction as right-to-left or left-to-right.
 
 # Demo
+Our crossing line is between the pole and the notice board bottom.
 https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f22c-dd9a-44fa-a9d9-0cb92b07d74c
 
 
