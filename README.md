@@ -16,11 +16,12 @@ https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f
 - [Usage](#usage)
 - [Features](#features)
 - [Limitation](#Limitation)
+- [Bibliography](#Bibliography)
 
 ## Description
 This project utilizes the YOLO (You Only Look Once) object detection algorithm combined with the ByteTrack multi-object tracking algorithm to monitor and count people passing a specified marker. The direction of movement (right-to-left or left-to-right) is recorded, and counters are incremented accordingly.
 
-### Working:
+## Working:
 
 1. **Read Video**:
     - The code starts by loading a video or connecting to a live camera feed. This is like pressing play on a video player.
@@ -37,7 +38,7 @@ This project utilizes the YOLO (You Only Look Once) object detection algorithm c
         - If they cross from left to right, another counter goes up.
 
 5. **Displaying Results**:
-    - The code continuously updates and shows the counts for how many people have crossed the line in each direction. This is like a scoreboard that keeps track of the movement of people in real-time.
+    - The code continuously updates and shows the counts for how many people have crossed the line in each direction. This is like a scoreboard that keeps track of the movement of people in real time.
 
 
 ## Installation
@@ -81,3 +82,8 @@ This project utilizes the YOLO (You Only Look Once) object detection algorithm c
 - If people are overlapping we lose track of them.
 - Two people walking simultaneously then we miss that person in counting, we need to place the camera strategically.
 - To make it real-time we need GPU.
+
+## Bibliography
+Yolo Model : https://github.com/WongKinYiu/yolov9
+Bytetrack Algorithm: https://medium.com/tech-blogs-by-nest-digital/object-tracking-object-detection-tracking-using-bytetrack-0aafe924d292
+Ultralytics: https://docs.ultralytics.com/modes/track/
