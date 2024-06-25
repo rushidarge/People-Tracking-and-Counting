@@ -1,0 +1,7 @@
+
+{
+    "video_path": "../../videos/test_videos/3.mp4",
+    "mask_path": "../../videos/test_videos/mask/mask3.png",
+    "model_path": "../../models/yolov9t.pt",
+    "output_path": "../../videos/predicition_output/output3.avi"
+}
