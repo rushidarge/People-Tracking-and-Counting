@@ -85,5 +85,7 @@ This project utilizes the YOLO (You Only Look Once) object detection algorithm c
 
 ## Bibliography
 Yolo Model : https://github.com/WongKinYiu/yolov9
+
 Bytetrack Algorithm: https://medium.com/tech-blogs-by-nest-digital/object-tracking-object-detection-tracking-using-bytetrack-0aafe924d292
+
 Ultralytics: https://docs.ultralytics.com/modes/track/
