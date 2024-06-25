@@ -11,6 +11,7 @@ https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f
 
 ## Table of Contents
 - [Description](#description)
+- [Working](#Working)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -18,6 +19,26 @@ https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f
 
 ## Description
 This project utilizes the YOLO (You Only Look Once) object detection algorithm combined with the ByteTrack multi-object tracking algorithm to monitor and count people passing a specified marker. The direction of movement (right-to-left or left-to-right) is recorded, and counters are incremented accordingly.
+
+### Working:
+
+1. **Read Video**:
+    - The code starts by loading a video or connecting to a live camera feed. This is like pressing play on a video player.
+
+2. **Finding People (YOLO)**:
+    - The code uses a deep learning model called YOLO (You Only Look Once) to find people in each frame of the video. Think of YOLO as a really smart pair of glasses that can spot people instantly in any picture.
+
+3. **Tracking People (ByteTrack)**:
+    - Once YOLO spots a person, ByteTrack takes over to follow that person as they move from one frame to the next. ByteTrack is like a high-tech tracking algorithm that keeps an eye on each person so it knows where they go.
+
+4. **Counting People**:
+    - The code has a "marker" or an imaginary line in the video (that it gets from the `mask.png` file). Whenever a person crosses this line, the code notes down which direction they are moving:
+        - If they cross from right to left, one counter goes up.
+        - If they cross from left to right, another counter goes up.
+
+5. **Displaying Results**:
+    - The code continuously updates and shows the counts for how many people have crossed the line in each direction. This is like a scoreboard that keeps track of the movement of people in real-time.
+
 
 ## Installation
 
