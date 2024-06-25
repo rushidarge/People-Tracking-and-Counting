@@ -1,6 +1,6 @@
 # People Tracking with YOLO and ByteTrack
 
-This project tracks people using the YOLO and ByteTrack algorithms, counting individuals passing a marker and categorizing their direction as either right-to-left or left-to-right.
+This project tracks people using the YOLO and ByteTrack algorithms, counting individuals passing a marker and categorizing their direction as right-to-left or left-to-right.
 
 # Demo
 https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f22c-dd9a-44fa-a9d9-0cb92b07d74c
@@ -12,6 +12,7 @@ https://github.com/rushidarge/People-Tracking-and-Counting/assets/39642887/b0d8f
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Limitation](#Limitation)
 
 ## Description
 This project utilizes the YOLO (You Only Look Once) object detection algorithm combined with the ByteTrack multi-object tracking algorithm to monitor and count people passing a specified marker. The direction of movement (right-to-left or left-to-right) is recorded, and counters are incremented accordingly.
@@ -52,3 +53,8 @@ This project utilizes the YOLO (You Only Look Once) object detection algorithm c
 - Direction-based counting
 - Easy configuration and customization
 
+## Limitation
+- We need to tune our logic sometimes we miss a person from counting.
+- If people are overlapping we lose track of them.
+- Two people walking simultaneously then we miss that person in counting, we need to place the camera strategically.
+- To make it real-time we need GPU.
